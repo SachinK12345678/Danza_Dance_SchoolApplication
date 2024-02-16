@@ -64,11 +64,11 @@ let handledata=(e)=>{
     <div className="Sub_login"  >
       <form action=""  onSubmit={handleSubmit}>
       <h2>LOGIN FORM</h2>  <br />  <br />
-               <pre>  <label htmlFor="proname">UserEmail  </label>
-                  <input type="text"  id="proname" name="userEmail" value={userEmail} onChange={handledata}/> <i id="mail_icon"  class="fa-solid fa-envelope"></i> <br /> <br /> </pre>  
+                 <label htmlFor="proname">UserEmail  </label>
+                  <input type="text"  id="proname" name="userEmail" value={userEmail} onChange={handledata}/> <i id="mail_icon"  class="fa-solid fa-envelope"></i> <br /> <br />   
 
-                 <pre><label htmlFor="pass"> Password   </label>
-                  <input type="password" id="pass" name="password" value={password} onChange={handledata}/>  <i  id="pass_icon" class="fa-solid fa-lock"></i> <br /> <br /> <br />            </pre> 
+                 <label htmlFor="pass"> Password   </label>
+                  <input type="password" id="pass" name="password" value={password} onChange={handledata}/>  <i  id="pass_icon" class="fa-solid fa-lock"></i> <br /> <br /> <br />  
                    <button id= "btn_for_login" >Login</button>
 
                   </form>
